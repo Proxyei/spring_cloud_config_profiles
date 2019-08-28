@@ -6,10 +6,10 @@ spring:
 spring:
   profiles: dev   #开发环境
   application:
-    name: microservicecloud-config-miomio-dev
+    name: microservicecloud-config-miomio-dev # 有注释就会错误？
 ---
 spring:
   profiles: test   #测试环境
   application:
-    name: microservicecloud-config-miomio-test
+    name: microservicecloud-config-miomio-test # 有注释就会错误？
 # 请保存为UTF-8格式
