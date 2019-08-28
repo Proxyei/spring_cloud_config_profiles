@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - dev
+--- 
+spring: 
+  profiles: dev
+  application:
+    name: provider-dept-service-dev #eurakla中对外暴露的微服务名字， 与server.context-path有什么区别
+
+--- 
+spring: 
+  profiles:
+    active: test
+  application:
+    name: provider-dept-service-test #eurakla中对外暴露的微服务名字， 与server.context-path有什么区别
